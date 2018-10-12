@@ -5,8 +5,8 @@
 <?php
 
 $servername = "localhost";
-$username = "emil";
-$password = "1234";
+$username = "user";
+$password = "password";
 $dbname = "exemplu";
 
 $firstname=$_POST["firstname"];
