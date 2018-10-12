@@ -1,5 +1,5 @@
 1.Create a mysql database
-2.goto all files,open with notepad and configure database
+2.goto all .php files,open with notepad and configure database
 3.Install apache or wamp(if is not instaled)
 4. Open localhost/conecteaza.php and wait
 5.Next go to localhost/agenda.php and create a new contact!
