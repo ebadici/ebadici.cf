@@ -3,8 +3,8 @@
 
 <?php
 $servername = "localhost";
-$username = "emil";
-$password = "1234";
+$username = "user";
+$password = "parola";
 $dbname = "exemplu";
 
 // Create connection
