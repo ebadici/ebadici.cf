@@ -1,0 +1,4 @@
+#rule1
+user-agent: *
+
+sitemap: www.ebadici.cf/sitemap.xml
