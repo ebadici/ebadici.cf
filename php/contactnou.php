@@ -22,7 +22,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
 
-$sql = "INSERT INTO MyGuests (firstname, lastname, phone)
+$sql = "INSERT INTO MyContacts (firstname, lastname, phone)
 VALUES  ('$firstname', '$lastname', '$phone')";
 
 if ($conn->query($sql) === TRUE) {
