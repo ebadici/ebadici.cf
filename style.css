@@ -9,7 +9,6 @@ body{
    border: 2px solid red;
   border-radius: 5px;
 }
-///1050x413
 #nav{
   background-color:#FF0040;
 }
@@ -53,7 +52,7 @@ body{
    }
 #content{
   align: right;
-  width:1050;
-  height:413;
-  text-align:left;
+  width:214px;
+  height:60%;
+  text-align: left;
 }
