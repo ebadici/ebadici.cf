@@ -1,10 +1,59 @@
+body{
+  background-image: url("wallpaper.jpg");
 
-#front{
-    width:100%;
-    height:100%;
-  background-color:#00FFFF;
+}
+#tot{
+   background-color:#FF0040;
+   width:100%;
+   height:60%;
+   border: 2px solid red;
+  border-radius: 5px;
+}
+///1050x413
+#nav{
+  background-color:#FF0040;
+}
+#nav1 a{
+  background-color: #78AFC3;
+  width:214px;
+  height:41px;
+  margin:10px;
+
+}
+#nav1{
+  width:214px;
+  height:341px;
+  margin:10px;
 }
 
-body{
+  #nav a{
+    padding: 21px 114px 0px 0px;
+    float:center;
+    width:214px;
+    height:41px;
+    background-color:#78AFC3;
+    color:#000000;
+     }
 
+#nav i{
+  background-color: #78AFC3;
+  width:214px;
+  height:41px;
+  margin-right:10px;
+  text-align: left;
+}
+#nav1 a{
+  padding: 0px 114px 10px 10px;
+  margin: 10px;
+  float:center;
+  width:114px;
+  height:21px;
+  background-color:#78AFC3;
+  color:#000000;
+   }
+#content{
+  align: right;
+  width:1050;
+  height:413;
+  text-align:left;
 }
