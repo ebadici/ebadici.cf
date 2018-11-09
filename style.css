@@ -1,6 +1,7 @@
 body{
   background-image: url("wallpaper.jpg");
-
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
 }
 #tot{
    background-color:#FF0040;
@@ -12,47 +13,77 @@ body{
 #nav{
   background-color:#FF0040;
 }
-#nav1 a{
-  background-color: #78AFC3;
-  width:214px;
-  height:41px;
-  margin:10px;
 
-}
 #nav1{
   width:214px;
   height:341px;
   margin:10px;
 }
 
-  #nav a{
-    padding: 21px 114px 0px 0px;
-    float:center;
-    width:214px;
-    height:41px;
-    background-color:#78AFC3;
-    color:#000000;
-     }
 
-#nav i{
-  background-color: #78AFC3;
-  width:214px;
-  height:41px;
-  margin-right:10px;
-  text-align: left;
-}
-#nav1 a{
-  padding: 0px 114px 10px 10px;
-  margin: 10px;
-  float:center;
-  width:114px;
-  height:21px;
-  background-color:#78AFC3;
-  color:#000000;
-   }
+
+
 #content{
   align: right;
   width:214px;
   height:60%;
-  text-align: left;
+  float: left;
+}
+a:link{
+text-decoration:none;}
+a:hover {text-decoration: none;}
+#nav1 a:hover{
+background-color:#3e7598;
+}
+#nav1 a{
+text-decoration:none;
+color:#FFFFFF;
+font-weight:bold;
+font-size:14px;
+padding-left:10px;
+padding-right:60px;
+padding-top:10px;
+padding-bottom:10px;
+
+}
+#content {
+ float: left;
+ color: #333;
+
+
+ margin: 0px 0px 50px 100px;
+ padding:10px;
+ height: 330px;
+ width: 672px;
+
+}
+#nav1{
+ border:;
+  margin: 0px 0px 0px 0px;
+
+ height: 350px;
+ width: 100px;
+ float: left;
+}
+#nav a{
+text-decoration:none;
+color:#FFFFFF;
+font-weight:bold;
+font-size:14px;
+padding-left:10px;
+padding-right:60px;
+padding-top:10px;
+padding-bottom:10px;
+
+}
+#nav a:hover{background-color:#3e7598; }
+#content a:hover{
+background-color:#3e7598;
+}
+#footer {
+ width: 796px;
+ height:70px;
+ clear: both;
+ margin: 0px 0px 10px 0px;
+ padding-top:10px;
 }
